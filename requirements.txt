@@ -5,7 +5,7 @@ duckdb==1.1.3
 pandas==2.2.3
 numpy==1.26.4
 openpyxl==3.1.5
-pyarrow==13.0.0
+# pyarrow removed: builds from source cause failure on Render; add back if using a compatible Python runtime
 httpx==0.27.2
 pydantic==2.9.2
 scipy==1.14.1
